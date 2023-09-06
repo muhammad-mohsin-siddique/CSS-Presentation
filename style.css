@@ -13,6 +13,8 @@ div ul{
 }
 a{
     background-color: #26c353;
+    font-weight: bold; 
+    width: 230px
 }
 section li{
     align-items: center;
@@ -27,20 +29,24 @@ section li{
 .container li{
     color: black;
 }
-#empty-container{
-    width: 80px;
-    height: 80px;
-
-}
 .list-1 li{
     color: black;
     font-weight: lighter;
 }
 #it-self{
-    color: black;
+    color: #000000;
     background-color: yellow;
     font-weight: bold;
 }
 header{
-    display: block;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+#empty-container {
+    width: 100px;
+    height: 100px;
+    align-items: left;
+    margin-left: 550px;
+    padding: 0px;
 }
