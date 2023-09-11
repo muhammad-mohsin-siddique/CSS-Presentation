@@ -1,126 +1,185 @@
 <!DOCTYPE html>
 <html lang="en">
-
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>CSS</title>
-    <link rel="icon" href="./imges/CSS-logo.png">
+    <link rel="icon" href="./imges/CSS-logo.png" />
+  </head>
 
-</head>
-
-<body style="background-color: #3498db;">
-    <header style="display: flex; justify-content: space-around; align-items: center;">
-        <h3>CSS Basic 1</h3>
-        <h4>Task No 1</h4>
-        <div id="empty-container">
-            <center><img src="./imges/CSS-logo.png" alt="CSS-LOGO" title="CSS Logo" height="100" width="100"></center>
-         </div>
-        <br />
+  <body style="background-color: #3498db">
+    <header
+      style="display: flex; justify-content: space-around; align-items: center"
+    >
+      <h3>CSS Basic 1</h3>
+      <h4>Task No 1</h4>
+      <div
+        style="
+          width: 100px;
+          height: 100px;
+          align-items: left;
+          margin-left: 550px;
+          padding: 0px;
+        "
+      >
+        <center>
+          <img
+            src="./imges/CSS-logo.png"
+            alt="CSS-LOGO"
+            title="CSS Logo"
+            height="100"
+            width="100"
+          />
+        </center>
+      </div>
+      <br />
     </header>
     <div>
-        <ul>
-            <li style="background-color: white; font-weight: bold; width: 230px;"><a href="./index.html">Presentation With External CSS</a></li>
-            <br/>
-            <li style="background-color: white; font-weight: bold; width: 230px;" ><a href="./internel.html">Presentation With Internal CSS</a></li>
-            <br/>
-            <li style="color: black; background-color: yellow; font-weight: bold; width: 230px; ">Presentation With Inline CSS</li>
-        </ul>
+      <ul
+        style="
+          width: 100%;
+          height: 5%;
+          display: flex;
+          justify-content: space-around;
+          align-items: center;
+          list-style: none;
+          background-color: #e6e9ed;
+        "
+      >
+        <li style="background-color: #26c353; font-weight: bold; width: 230px">
+          <a href="./index.html">Presentation With External CSS</a>
+        </li>
+        <br />
+        <li style="background-color: #26c353; font-weight: bold; width: 230px">
+          <a href="./internel.html">Presentation With Internal CSS</a>
+        </li>
+        <br />
+        <li
+          style="
+            color: black;
+            background-color: yellow;
+            font-weight: bold;
+            width: 230px;
+          "
+        >
+          Presentation With Inline CSS
+        </li>
+      </ul>
     </div>
     <br />
-    <section style="background-color: aqua; font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;" >
-        <ol>
-            <li>Make A Presentation On The Following Topics On CSS:
-                <br />
-                <br />
-                <ul>
-                    <li>What Does it mean by cascading in css:</li>
-                    <br />
-                    <div class="container">
-                        The “cascading” in CSS refers to the fact that styling rules “cascade” down from several
-                        sources. This means that CSS has an inherent hierarchy and styles of a higher precedence
-                        will overwrite rules of a lower precedence.
-                    </div>
-                    <br />
-                    <li> Why We Use CSS</li>
-                    <br/>
-                    <div class="container">
-                        We use CSS (Cascading Style Sheets) in web development to control how web pages look and feel.
-                        It helps separate design from content, makes websites look consistent, adapts to different
-                        devices, and makes it easier to update and maintain the appearance of a website. In simple
-                        terms, CSS makes websites pretty and functional.
-                    </div>
-                    <br />
-                    <li>What Does It Mean By Stylesheet In CSS</li>
-                    <br />
-                    <div class="container">
-                        In CSS, a "stylesheet" is a file or document that contains rules and instructions for how a web
-                        page's elements should be styled or formatted. Stylesheets define things like colors, fonts,
-                        spacing, and layout for HTML elements. By using stylesheets, you can control the visual
-                        presentation of your web content, making it look the way you want it to on a web page.
-                        Stylesheets can be linked to HTML documents to apply these styles consistently across multiple
-                        pages, making it easier to manage and maintain the design of a website.
-                    </div>
-                    <br />
-                    <li>How Many Ways You Can Add Css To HTML</li>
-                    <br />
-                    <div class="container">
-                        <marquee behavior="" direction="up" scrollamount="3">
-                            <ol>
-                                <li>External Stylesheet:</li>
-                                <br />
-                                <div class="container">
-                                    <pre>Link an external .css file to your HTML using &lt;link&gt; in the &lt;head&gt;</pre>
-                                </div>
-                                <br />
-                                <li>Internal Stylesheet:</li>
-                                <br />
-                                <div class="container">
-                                    <pre>Embed CSS directly within the HTML file using &lt;style&gt; in the &lt;head&gt;</pre>
-                                </div>
-                                <br />
-                                <li>Inline Styles::</li>
-                                <br />
-                                <div class="container">
-                                    <pre>Apply styles directly to individual HTML elements using the style attribute.</pre>
-                                </div>
-                                <br />
-    
-                            </ol>
-
-                        </marquee>
-                    </div>
-                    <br />
-                    <li>Purpose Of Css And Limitations Of HTML In Styling Before CSS</li>
-                    <br />
-                    <div class="container">
-                        <h4>Purpose Of CSS:</h4>
-                        <ol class="list-1">
-                            <li>CSS (Cascading Style Sheets) is used to style web content,</li>
-                            <li>Controlling how HTML elements lool</li>
-                            <li>Improving consistency </li>
-                            <li>Making responsive designs possible.</li>
-                        </ol>
-                        <h4>Limitations of HTML in Styling Before CSS:</h4>
-                        <ol >
-                            <li>Basic Styling:</li>
-                            <pre>HTML had limited styling options.</pre>
-                            <li>Inline Styling:</li>
-                            <pre> It mixed content with presentation.</pre>
-                            <li>Inconsistent Styles:</li>
-                            <pre>Browsers had varying default styles.</pre>
-                            <li>Layout Control:</li>
-                            <pre> It lacked control over page layout.</pre>
-                            <li>Maintenance Challenges:</li>
-                            <pre>Global design changes were difficult.</pre>
-                            <li>Accessibility Issues:</li>
-                            <pre> Limited options for accessibility.</pre>
-                        </ol>
-                    </div>
-                </ul>
+    <section
+      style="
+        background-color: aqua;
+        font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS',
+          sans-serif;
+      "
+    >
+      <ol>
+        <li>
+          Make A Presentation On The Following Topics On CSS:
+          <br />
+          <br />
+          <ul>
+            <li>What Does it mean by cascading in css:</li>
+            <br />
+            <div class="container">
+              The “cascading” in CSS refers to the fact that styling rules
+              “cascade” down from several sources. This means that CSS has an
+              inherent hierarchy and styles of a higher precedence will
+              overwrite rules of a lower precedence.
+            </div>
+            <br />
+            <li>Why We Use CSS</li>
+            <br />
+            <div class="container">
+              We use CSS (Cascading Style Sheets) in web development to control
+              how web pages look and feel. It helps separate design from
+              content, makes websites look consistent, adapts to different
+              devices, and makes it easier to update and maintain the appearance
+              of a website. In simple terms, CSS makes websites pretty and
+              functional.
+            </div>
+            <br />
+            <li>What Does It Mean By Stylesheet In CSS</li>
+            <br />
+            <div class="container">
+              In CSS, a "stylesheet" is a file or document that contains rules
+              and instructions for how a web page's elements should be styled or
+              formatted. Stylesheets define things like colors, fonts, spacing,
+              and layout for HTML elements. By using stylesheets, you can
+              control the visual presentation of your web content, making it
+              look the way you want it to on a web page. Stylesheets can be
+              linked to HTML documents to apply these styles consistently across
+              multiple pages, making it easier to manage and maintain the design
+              of a website.
+            </div>
+            <br />
+            <li>How Many Ways You Can Add Css To HTML</li>
+            <br />
+            <div class="container">
+              <marquee behavior="" direction="up" scrollamount="3">
+                <ol>
+                  <li>External Stylesheet:</li>
+                  <br />
+                  <div class="container">
+                    <pre>
+Link an external .css file to your HTML using &lt;link&gt; in the &lt;head&gt;</pre
+                    >
+                  </div>
+                  <br />
+                  <li>Internal Stylesheet:</li>
+                  <br />
+                  <div class="container">
+                    <pre>
+Embed CSS directly within the HTML file using &lt;style&gt; in the &lt;head&gt;</pre
+                    >
+                  </div>
+                  <br />
+                  <li>Inline Styles::</li>
+                  <br />
+                  <div class="container">
+                    <pre>
+Apply styles directly to individual HTML elements using the style attribute.</pre
+                    >
+                  </div>
+                  <br />
+                </ol>
+              </marquee>
+            </div>
+            <br />
+            <li>
+              Purpose Of Css And Limitations Of HTML In Styling Before CSS
             </li>
-        </ol>
+            <br />
+            <div class="container">
+              <h4>Purpose Of CSS:</h4>
+              <ol class="list-1">
+                <li>
+                  CSS (Cascading Style Sheets) is used to style web content,
+                </li>
+                <li>Controlling how HTML elements lool</li>
+                <li>Improving consistency</li>
+                <li>Making responsive designs possible.</li>
+              </ol>
+              <h4>Limitations of HTML in Styling Before CSS:</h4>
+              <ol>
+                <li>Basic Styling:</li>
+                <pre>HTML had limited styling options.</pre>
+                <li>Inline Styling:</li>
+                <pre> It mixed content with presentation.</pre>
+                <li>Inconsistent Styles:</li>
+                <pre>Browsers had varying default styles.</pre>
+                <li>Layout Control:</li>
+                <pre> It lacked control over page layout.</pre>
+                <li>Maintenance Challenges:</li>
+                <pre>Global design changes were difficult.</pre>
+                <li>Accessibility Issues:</li>
+                <pre> Limited options for accessibility.</pre>
+              </ol>
+            </div>
+          </ul>
+        </li>
+      </ol>
     </section>
-</body>
-
+  </body>
 </html>
